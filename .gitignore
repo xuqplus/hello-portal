@@ -3,3 +3,6 @@
 .git/
 package-lock.json
 node_modules/
+server/**/*.js
+server/**/*.js.map
+server/**/*.css

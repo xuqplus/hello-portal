@@ -14,6 +14,10 @@ npm i --save-dev @types/http-errors
 npm i --save-dev @types/less-middleware
 npm i --save-dev @types/cookie-parser
 
+find server -name *.js | xargs rm
+find server -name *.js.map | xargs rm
+find server -name *.css | xargs rm
+
 https://github.com/BrianDGLS/express-ts
 ```
 
