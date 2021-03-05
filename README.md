@@ -21,5 +21,12 @@ find server -name *.css | xargs rm
 https://github.com/BrianDGLS/express-ts
 ```
 
+#### introduce bower
+```
+
+
+https://bower.io/
+```
+
 #### build & run
 npm install && npm start

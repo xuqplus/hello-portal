@@ -1,0 +1,21 @@
+{
+  "name": "hello-portal",
+  "description": "",
+  "main": "",
+  "authors": [
+    "Qunqun Xu"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/xuqplus/hello-portal",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "^3.6.0"
+  }
+}
