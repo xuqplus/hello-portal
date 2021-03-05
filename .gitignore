@@ -8,3 +8,6 @@ server/**/*.js.map
 server/**/*.css
 bower_components/
 angular-phonecat/
+client/**/*.js
+client/**/*.js.map
+client/**/*.css

@@ -3,7 +3,8 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "tsc": "tsc",
+    "clean": "find server client -name *.js | xargs rm -f && find server client -name *.js.map | xargs rm -f && find server client -name *.css | xargs rm -f",
+    "compile": "tsc && cd client && tsc",
     "start": "node server/bin/www"
   },
   "dependencies": {

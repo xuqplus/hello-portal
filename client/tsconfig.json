@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    //    "target": "es5",
+    "sourceMap": true,
+    "outFile": "./bundle.js",
+    "moduleResolution": "node",
+    "typeRoots": [
+      "../../node_modules/@types"
+    ]
+  }
+  //  "files": [
+  //    "a.ts"
+  //  ],
+  //  "exclude": [
+  //    "b/**/*.ts",
+  //  ]
+}

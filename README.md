@@ -14,9 +14,9 @@ npm i --save-dev @types/http-errors
 npm i --save-dev @types/less-middleware
 npm i --save-dev @types/cookie-parser
 
-find server -name *.js | xargs rm
-find server -name *.js.map | xargs rm
-find server -name *.css | xargs rm
+find server client -name *.js | xargs rm
+find server client -name *.js.map | xargs rm
+find server client -name *.css | xargs rm
 
 https://github.com/BrianDGLS/express-ts
 ```
@@ -31,12 +31,19 @@ https://bower.io/
 ```
 
 ##### angularjs
+###### introduce angularjs
 ```
 bower install angular --save
 
 https://code.angularjs.org/1.8.2/docs/tutorial
 https://github.com/angular/angular-phonecat
 ```
+###### work with angularjs
+```
+mkdir client & touch app.ts & reference bundle.js in server/views/angular.ejs
+
+tsconfig -> https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
+```
 
 #### build & run
-npm install && npm start
+npm install && npm run clean && npm run compile && npm start

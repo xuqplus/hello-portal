@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" ng-app>
+<html lang="en" ng-app="myApp">
 <head>
     <title><%= title; %></title>
     <link rel='stylesheet' href='/stylesheets/style.css'/>
@@ -7,15 +7,22 @@
     <link rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap-grid.min.css'/>
     <link rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap-reboot.min.css'/>
 </head>
-<body>
+<body ng-controller="ItemsController">
 
 <h3>
     <div>Hello, {{'Angular' + ' ' + 'introduced'}}</div>
 </h3>
 
+<div>
+    <div ng-repeat="item in items">
+        <div>{{item.id + ', ' + item.name}}</div>
+    </div>
+</div>
+
 <script src="/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="/bower_components/angular/angular.min.js"></script>
+<script src="/bundle.js"></script>
 <script>
 </script>
 </body>

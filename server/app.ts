@@ -25,11 +25,19 @@ app.use('/', indexRouter);
 app.use('/users', usersRouter);
 app.use('/users2', users2);
 
+// angular spa
+app.use(express.static('client', {maxAge: 31536000000}));
+
 // static components
 app.use('/bower_components', express.static('bower_components', {maxAge: 31536000000}));
 
 // catch 404 and forward to error handler
 app.use(function (req, res, next) {
+    next(createError(404));
+});
+
+// catch 404 and forward to error handler
+app.use(function (req: express.Request, res: express.Response, next: any) {
     next(createError(404));
 });
 
