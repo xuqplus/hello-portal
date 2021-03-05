@@ -3,17 +3,34 @@
 <head>
     <title><%= title; %></title>
     <link rel='stylesheet' href='/stylesheets/style.css'/>
+    <link rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap.min.css'/>
+    <link rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap-grid.min.css'/>
+    <link rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap-reboot.min.css'/>
 </head>
 <body>
 <p id="a-id">Hello, <%= title; %></p>
 <h3><%= "ts introduced"; %></h3>
-<h3 id="b-id" style=""></h3>
+<h3 id="b-id"></h3>
+<h3>
+    <button id="bt-id" class="btn btn-lg btn-success" data-toggle="collapse" href="#bt-collapse">
+        bootstrap introduced
+    </button>
+    <div id="bt-collapse" class="collapse">
+        <div class="card card-body">
+            jquery, bootstrap introduced by bower
+        </div>
+    </div>
+</h3>
 
 <script src="/bower_components/jquery/dist/jquery.min.js"></script>
+<script src="/bower_components/jquery/dist/jquery.slim.min.js"></script>
+<script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
 <script>
   $(document).ready(() => {
     console.log("bower introduced")
     $("#b-id").text("bower introduced")
+
+    $("#bt-id").click()
   })
 </script>
 </body>

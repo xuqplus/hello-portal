@@ -23,7 +23,9 @@ https://github.com/BrianDGLS/express-ts
 
 #### introduce bower
 ```
-
+git config url."https://".insteadOf git://
+bower init
+bower install jquery bootstrap --save
 
 https://bower.io/
 ```
