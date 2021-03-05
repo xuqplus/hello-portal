@@ -1,6 +1,6 @@
 "use strict";
 var i = 0;
-// console.log("ts-node for real-time compilation");
+console.log("ts-node, for real-time compilation");
 var angular: any
 
 var myApp = angular.module('myApp', []);

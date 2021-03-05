@@ -45,5 +45,8 @@ mkdir client & touch app.ts & reference bundle.js in server/views/angular.ejs
 tsconfig -> https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
 ```
 
+#### work with ts-node (in development)
+`npm i -g ts-node && ts-node start-script`
+
 #### build & run
-npm install && npm run clean && npm run compile && npm start
+`npm install && npm run clean && npm run compile && npm start`

@@ -5,7 +5,8 @@
   "scripts": {
     "clean": "find server client -name *.js | xargs rm -f && find server client -name *.js.map | xargs rm -f && find server client -name *.css | xargs rm -f",
     "compile": "tsc && cd client && tsc",
-    "start": "node server/bin/www"
+    "start": "ts-node server/bin/www",
+    "start0": "ts-node server/bin/www"
   },
   "dependencies": {
     "cookie-parser": "^1.4.2",
