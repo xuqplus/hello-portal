@@ -21,13 +21,21 @@ find server -name *.css | xargs rm
 https://github.com/BrianDGLS/express-ts
 ```
 
-#### introduce bower
+#### introduce bower & js frameworks/utils
 ```
 git config url."https://".insteadOf git://
 bower init
 bower install jquery bootstrap --save
 
 https://bower.io/
+```
+
+##### angularjs
+```
+bower install angular --save
+
+https://code.angularjs.org/1.8.2/docs/tutorial
+https://github.com/angular/angular-phonecat
 ```
 
 #### build & run
