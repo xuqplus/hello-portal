@@ -59,6 +59,7 @@ https://gruntjs.com/getting-started
 npm install -D load-grunt-config
 npm install -D grunt-contrib-less grunt-contrib-watch
 
+https://www.npmjs.com/package/grunt-contrib-uglify
 https://www.npmjs.com/package/grunt-contrib-cssmin
 https://www.npmjs.com/package/grunt-contrib-less
 https://www.npmjs.com/package/grunt-contrib-watch
