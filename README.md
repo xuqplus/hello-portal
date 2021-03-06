@@ -45,6 +45,15 @@ mkdir client & touch app.ts & reference bundle.js in server/views/angular.ejs
 tsconfig -> https://www.typescriptlang.org/docs/handbook/tsconfig-json.html
 ```
 
+#### introduce grunt
+```
+npm i -g grunt-cli
+grunt --help && grunt clean && grunt
+
+https://www.npmjs.com/package/grunt-contrib-clean
+https://gruntjs.com/getting-started
+```
+
 #### work with ts-node (in development)
 `npm i -g ts-node && ts-node start-script`
 
