@@ -57,7 +57,10 @@ https://gruntjs.com/getting-started
 ##### grunt plugins
 ```
 npm install -D load-grunt-config
+npm install -D grunt-contrib-less grunt-contrib-watch
 
+https://www.npmjs.com/package/grunt-contrib-less
+https://www.npmjs.com/package/grunt-contrib-watch
 https://www.npmjs.com/package/load-grunt-config
 https://gruntjs.com/plugins
 ```
