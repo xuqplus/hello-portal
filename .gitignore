@@ -5,11 +5,10 @@ package-lock.json
 node_modules/
 server/**/*.js
 server/**/*.js.map
-server/**/*.css
-server/**/*.css.map
 bower_components/
 angular-phonecat/
 client/**/*.js
 client/**/*.js.map
-client/**/*.css
-client/**/*.css.map
+*.css
+*.css.map
+*.min.css
