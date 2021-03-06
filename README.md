@@ -54,6 +54,14 @@ https://www.npmjs.com/package/grunt-contrib-clean
 https://gruntjs.com/getting-started
 ```
 
+##### grunt plugins
+```
+npm install -D load-grunt-config
+
+https://www.npmjs.com/package/load-grunt-config
+https://gruntjs.com/plugins
+```
+
 #### work with ts-node (in development)
 `npm i -g ts-node && ts-node start-script`
 
