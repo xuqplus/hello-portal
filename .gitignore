@@ -15,3 +15,4 @@ client/**/*.js.map
 *.min.js
 *.min.js.map
 build/
+.tscache/

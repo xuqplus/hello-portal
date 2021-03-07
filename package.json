@@ -4,7 +4,7 @@
   "private": true,
   "scripts": {
     "clean": "grunt clean",
-    "compile": "tsc && cd client && tsc",
+    "compile": "grunt ts",
     "start": "ts-node server/bin/www",
     "start0": "ts-node server/bin/www"
   },
@@ -36,6 +36,7 @@
     "grunt-contrib-less": "^3.0.0",
     "grunt-contrib-uglify": "^5.0.0",
     "grunt-contrib-watch": "^1.1.0",
+    "grunt-ts": "^6.0.0-beta.22",
     "load-grunt-config": "^3.0.1",
     "typescript": "^4.2.3"
   }
