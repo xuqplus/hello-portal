@@ -1,11 +1,20 @@
 module.exports = {
+    client: {
+        files: [{
+            expand: true,
+            src: ['client/**/*.js', '!client/**/*.min.js'],
+            dest: '.',
+            rename: function (dest, src) {
+                return dest + '/' + src.replace('.js', '.min.js');
+            }
+        }]
+    },
     server: {
         files: [{
             expand: true,
-            src: ['server/*.js', '!server/*.min.js'],
+            src: ['server/**/*.js', '!server/**/*.min.js'],
             dest: '.',
-            cwd: '.',
-            rename: function (dest, src, a) {
+            rename: function (dest, src) {
                 // To keep the source js files and make new files as `*.min.js`:
                 // return dest + '/' + src.replace('.js', '.min.js');
                 // Or to override to src:

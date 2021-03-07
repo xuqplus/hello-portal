@@ -13,6 +13,9 @@ module.exports = function(grunt) {
       'server/**/*.js.map',
       'server/**/*.css',
       'server/**/*.css.map'
+    ],
+    build: [
+      'build/'
     ]
   }
 };

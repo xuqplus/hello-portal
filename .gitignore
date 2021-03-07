@@ -12,3 +12,6 @@ client/**/*.js.map
 *.css
 *.css.map
 *.min.css
+*.min.js
+*.min.js.map
+build/
