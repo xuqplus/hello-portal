@@ -37,6 +37,7 @@
     "grunt-contrib-uglify": "^5.0.0",
     "grunt-contrib-watch": "^1.1.0",
     "grunt-ts": "^6.0.0-beta.22",
+    "grunt-tslint": "^5.0.2",
     "load-grunt-config": "^3.0.1",
     "typescript": "^4.2.3"
   }
