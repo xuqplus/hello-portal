@@ -1,14 +1,16 @@
 namespace bpp.controllers {
 
-    interface BScope extends ng.IScope {
+    export interface BScope extends ng.IScope {
         items: object[]
     }
 
-    const BController = ($scope: BScope) => {
-        $scope.items = [
-            {id: 1, name: 'QQ 1'},
-            {id: 2, name: 'QQ 2'},
-        ]
+    export class BController { // export will let others see BController
+        constructor($scope: BScope) {
+            $scope.items = [
+                {id: 1, name: 'QQ 1'},
+                {id: 2, name: 'QQ 2'},
+            ]
+        }
     }
 
     angular.module('bpp')
