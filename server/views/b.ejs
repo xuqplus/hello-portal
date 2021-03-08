@@ -7,7 +7,7 @@
     <link rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap-grid.min.css'/>
     <link rel='stylesheet' href='/bower_components/bootstrap/dist/css/bootstrap-reboot.min.css'/>
 </head>
-<body ng-controller="ItemsController">
+<body ng-controller="ItemsController as ctrl">
 
 <h3>
     <div>{{'Hello' + ' ' + 'bpp'}}</div>
@@ -17,9 +17,9 @@
     <div ng-repeat="item in items">
         <div>{{item.id + ', ' + item.name}}</div>
     </div>
+<button class="btn btn-success" ng-click="ctrl.aClick()">aClick</button>
 </div>
 
-<!--<button class="btn btn-success">aClick</button>-->
 <button ui-sref="b2" ui-sref-active="active" class="btn btn-success">b2</button>
 <button ui-sref="b3" ui-sref-active="active" class="btn btn-success">b3</button>
 <hr>
