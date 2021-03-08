@@ -13,4 +13,3 @@ myApp.controller('ItemsController', function ItemsController ($scope: any) {
     { id: 4, name: 'QQ 4' }
   ]
 })
-// # sourceMappingURL=app.js.map

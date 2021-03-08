@@ -5,6 +5,7 @@ import lessMiddleware from 'less-middleware'
 import logger from 'morgan'
 import * as path from 'path'
 import indexRouter from './routes/index'
+import b from './routes/b'
 import usersRouter from './routes/users'
 import users2 from './routes/users2'
 
@@ -22,6 +23,7 @@ app.use(lessMiddleware(path.join(__dirname, 'public')))
 app.use(express.static(path.join(__dirname, 'public')))
 
 app.use('/', indexRouter)
+app.use('/b', b)
 app.use('/users', usersRouter)
 app.use('/users2', users2)
 
