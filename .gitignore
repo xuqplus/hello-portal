@@ -16,3 +16,4 @@ client/**/*.js.map
 *.min.js.map
 build/
 .tscache/
+.bin/
