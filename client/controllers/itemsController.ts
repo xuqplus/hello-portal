@@ -6,7 +6,7 @@ namespace bpp.controllers {
 
     export class Controller { // export will let others see the Controller
         aClick = (): void => {
-            console.log("aClick")
+            console.log("aClick in ItemsController")
         }
 
         constructor($scope: ItemsScope) {

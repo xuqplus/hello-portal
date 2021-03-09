@@ -24,6 +24,8 @@ namespace bpp.directives {
         }
 
         templateUrl = '../views/a.html';
+        controller = 'adController';
+        controllerAs = '$adCtrl';
         require = '?ngModel';
         restrict = 'EA';
 
