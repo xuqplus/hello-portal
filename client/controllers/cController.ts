@@ -1,8 +1,13 @@
 namespace bpp.controllers {
 
-    export class CController implements ng.IComponentController {
+    class CController implements ng.IComponentController {
+        constructor(aService: bpp.services.AService) {
+            // auto injections
+        }
+
         cClick: Function = (): void => {
-            console.log('cClick')
+            console.log('cClick');
+            aService.a();
         }
     }
 
