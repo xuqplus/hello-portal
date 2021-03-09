@@ -17,7 +17,7 @@
     <div ng-repeat="item in items">
         <div>{{item.id + ', ' + item.name}}</div>
     </div>
-<button class="btn btn-success" ng-click="ctrl.aClick()">aClick</button>
+    <button class="btn btn-success" ng-click="ctrl.aClick()">aClick</button>
 </div>
 
 <button ui-sref="b2" ui-sref-active="active" class="btn btn-success">b2</button>
@@ -25,6 +25,9 @@
 <hr>
 
 <ui-view></ui-view>
+<hr>
+
+<b-component></b-component>
 
 <script src="/bower_components/jquery/dist/jquery.min.js"></script>
 <script src="/bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
