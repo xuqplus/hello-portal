@@ -37,6 +37,7 @@ namespace bpp.routers {
         );
     }
 
-    angular.module('bpp.routers', ['ui.router',])
-        .config([/* '$state', */ '$stateProvider', '$urlRouterProvider', R])
+    // angular
+    //     .module('bpp.routers', ['ui.router',])
+    //     .config([/* '$state', */ '$stateProvider', '$urlRouterProvider', R])
 }

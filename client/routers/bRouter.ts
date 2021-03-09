@@ -14,7 +14,7 @@ namespace bpp.routers {
     }]
 
     const BRouter = (
-        $stateProvider: any,
+        $stateProvider: angular.ui.IStateProvider,
         // $routeProvider: angular.ui.IStateProvider,
         // $locationProvider: ng.ILocationProvider,
         // $urlRouterProvider: ng.ui.IUrlRouterProvider
@@ -22,6 +22,7 @@ namespace bpp.routers {
         routes.forEach(route => $stateProvider.state(route));
     }
 
-    angular.module('bpp.routers', ['ui.router',])
-        .config(['$stateProvider', BRouter])
+    // angular
+    //     .module('bpp.routers', ['ui.router',])
+    //     .config(['$stateProvider', BRouter])
 }
