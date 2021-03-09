@@ -2,5 +2,18 @@
     client/templates/c.html
 
     <button class="btn btn-warning" ng-click="$ctrl.cClick()">$ctrl.cClick</button>
-    <button class="btn btn-warning" ng-click="cClick()">cClick</button>
+    <button class="btn btn-outline-warning" ng-click="cClick()">cClick - not work</button>
+    <hr>
+    those 2 were bind on $scope.$scope - $scope.$scope.cModel
+    <input ng-model="$scope.cModel" placeholder="test ng-model" class="input-lg">
+    <input ng-model="$scope.cModel" placeholder="test ng-model" class="input-lg">
+    those 2 were bind on $scope - $scope.cModel: <br>
+    <input ng-model="cModel" placeholder="test ng-model" class="input-lg">
+    <input ng-model="cModel" placeholder="test ng-model" class="input-lg">
+    those 2 were bind on $scope.$ctrl - $scope.$ctrl.cModel: <br>
+    <input ng-model="$ctrl.cModel" placeholder="test ng-model" class="input-lg">
+    <input ng-model="$ctrl.cModel" placeholder="test ng-model" class="input-lg">
+    those 2 were bind on $scope.$rootScope - $scope.$rootScope.cModel: <br>
+    <input ng-model="$rootScope.cModel" placeholder="test ng-model" class="input-lg">
+    <input ng-model="$rootScope.cModel" placeholder="test ng-model" class="input-lg">
 </div>
