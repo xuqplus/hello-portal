@@ -7,6 +7,10 @@ namespace bpp.controllers {
             this.$scope = $scope;
         }
 
+        adClick: Function = (): void => {
+            console.log('adClick in aController');
+        }
+
         aClick: Function = (): void => {
             console.log('aClick');
         }
