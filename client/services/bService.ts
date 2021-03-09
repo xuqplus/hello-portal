@@ -7,6 +7,6 @@ namespace bpp.services {
         }
     }
 
-    angular.module('bpp')
+    angular.module('bpp.services')
         .service('bService', BService)
 }

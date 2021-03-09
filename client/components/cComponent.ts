@@ -6,6 +6,6 @@ namespace bpp.components {
         templateUrl = '../templates/c.html';
     }
 
-    angular.module('bpp')
+    angular.module('bpp.components')
         .component('cComponent', new CComponent())
 }

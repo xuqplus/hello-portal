@@ -17,6 +17,7 @@ namespace bpp.controllers {
         }
     }
 
-    angular.module('bpp')
+    angular
+        .module('bpp.controllers')
         .controller('ItemsController', Controller)
 }

@@ -23,6 +23,6 @@ namespace bpp.controllers {
 
     angular
         // .module('bpp') // both are ok
-        .module('bppComponents')
+        .module('bpp.controllers')
         .controller('cController', CController)
 }

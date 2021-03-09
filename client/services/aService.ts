@@ -21,6 +21,6 @@ namespace bpp.services {
         }
     }
 
-    angular.module('bpp')
+    angular.module('bpp.services')
         .service('aService', AService)
 }

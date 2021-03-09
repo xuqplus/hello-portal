@@ -1,6 +1,6 @@
 namespace bpp.components {
 
-    angular.module('bppComponents')
+    angular.module('bpp.components')
         .component('bComponent', {
             templateUrl: '../templates/b.html',
             // controller: ($scope: any) => {

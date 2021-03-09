@@ -1,10 +1,10 @@
 namespace bpp.components {
 
-    class First {
-        constructor() {
-        }
+    class Component implements ng.IComponentOptions {
+        controller = 'aController';
+        templateUrl = '../templates/a.html';
     }
 
-    angular.module('bppComponents', [])
-        .component('first', new First())
+    angular.module('bpp.components')
+        .component('aComponent', new Component())
 }
